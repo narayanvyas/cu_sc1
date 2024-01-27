@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
+import 'login_page.dart';
+
 void main() {
   runApp(MaterialApp(
     title: 'My nth App',
-    home: FirstPage(),
+    home: LoginPage(),
   ));
 }
 
